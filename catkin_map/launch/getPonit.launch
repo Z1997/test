@@ -1,0 +1,5 @@
+<launch>
+<node pkg="catkin_map" type="catkin_map_node" name="getPoint" output="screen">
+    <param name="map_name" value="map1"/>
+  </node>
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+  <node name="catkin_wheel" pkg="catkin_wheel" type="catkin_wheel_node">
+    <!--需要检测的圆半径-->
+    <param name="radius" type="double" value="0.05"/>
+    <!--需要检测的圆在激光前方左右偏差距离-->
+    <param name="y_need" type="double" value="0.2"/>
+  </node>
+</launch>
